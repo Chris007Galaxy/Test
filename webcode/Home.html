@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Warner Bros Tv</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+	font-family: Calibri;
+	font-size: 20px;
+    background: linear-gradient(-50deg, #48e295, #da3ce7, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+	}
+
+	@keyframes gradient {
+    	0% {
+        	background-position: 0% 50%;
+    	}
+    	50% {
+        	background-position: 100% 50%;
+    	}
+    	100% {
+        	background-position: 0% 50%;
+    	}
+	}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image:url ('PinkCloud.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 60px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+	  
+
+  }
+}
+</style>
+</head>
+<body bgcolor=black>
+
+	<center>
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/xRjvmVaFHkk" style="background-color:#354147" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<div class="navbar">
+  <a href="Home.html" class="active">Home</a>
+  <a href="TV shows.html">TV shows</a>
+  <a href="NewsTemplate.html">News</a>
+</div>
+
+	
+	
+<div class="row">
+  <div class="side">
+    <h2>About</h2>
+    <h5>Warner TV is a brand available across Asia Pacific and it’s
+	created and distributed by Turner Broadcasting System Asia Pacific.
+	Warner TV is a Time Warner company that focuses on airing American 
+	Tv series and films. </h5>
+    <img src="Warner.png" style="height:200px;"/>
+    <h2>Description about Channel</h2>
+    <h5>Warner TV offers viewers in Asia a chance to get an unprecedented
+	mix of hit TV series and blockbuster movies. Its line-up boasts the 
+	world’s biggest franchises first run exclusives and fan-favourites 
+	across a wide range of genres of action, comedy, and drama.</h5>
+    <h2>Founded</h2>
+	<p>March 21, 1955</p> 
+	<h3>By:</h3>
+	<p><b>William T. Orr was an American television producer associated with a series of western and detective programs of the 1950s-1970s. Born William Ferdinand Quinn Jr., he took his stepfather's last name in childhood, and adopted the middle initial 'T' in honour of the maiden name of his mother, Gladys Turney.</b></p>
+	<img src="WarnerTvFounder.jpg" style="height:250px;"/><br>
+	
+  </div>
+ 
+    <center>
+	<h2><u><B>Some Popular Shows From Warner Bros</u></B></h2>
+	<a href="https://www.warnerbros.com/tv/black-lightning-season-3" target="_blank">
+	<img src="https://irs.www.warnerbros.com/keyart-png/tv/media/browser/black_lightning_s3_keyart.png" alt="Black Lightning - Season 3">
+	</a>
+	<a href="https://www.warnerbros.com/tv/bachelor-season-24" target="_blank">
+   <img src="https://irs.www.warnerbros.com/keyart-jpeg/tv/media/browser/the_bachelor_s24_key_art.jpg" alt="The Bachelor S24 - Key Art">
+   </a>
+   <a href="https://www.warnerbros.com/tv/arrow-season-8" target="_blank">
+	<img src="https://irs.www.warnerbros.com/keyart-jpeg/tv/media/browser/arrow_s8_2000x3000.jpeg" alt="Arrow - Season 8">
+	</a>
+	<a href="https://www.warnerbros.com/tv/all-american-season-2" target="_blank">
+	<img src="https://irs.www.warnerbros.com/keyart-jpeg/tv/media/browser/all_american_s2_key_art.jpg" alt="All American S2 - Key Art">
+	</a>
+	</center>
+	<br>
+	
+</div>
+
+
+
+</body>
+</html>
